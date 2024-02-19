@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Beer Page - Cervezas artesanales méxicanas</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+    
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-white sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-2 py-lg-0">
+                <a href="index.html" class="navbar-brand">
+                    <img class="img-fluid" src="img/logo.png" alt="Logo">
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                        <a href="#AcercaDe" class="nav-item nav-link">Acerca de</a>
+                        <a href="#Estilos" class="nav-item nav-link">Estílos</a>
+                        <a href="#Tienda" class="nav-item nav-link">Tienda</a>
+                        <a href="#Comentarios" class="nav-item nav-link">Comentarios</a>
+                        <a href="#Contacto" class="nav-item nav-link">Contacto</a>
+                    </div>
+                    <div class="border-start ps-4 d-none d-lg-block">
+                        <button type="button" class="btn btn-sm p-0"><i class="fa fa-search"></i></button>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid px-0 mb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 text-center">
+                                    <p class="fs-4 text-white animated zoomIn">Bienvenido a <strong class="text-dark">Beer Page</strong></p>
+                                    <h1 class="display-1 text-dark mb-4 animated zoomIn">Las mejores artesanales mexicanas</h1>
+                                    <!--<a href="" class="btn btn-light rounded-pill py-3 px-5 animated zoomIn">Explore More</a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 text-center">
+                                    <p class="fs-4 text-white animated zoomIn">Bienvenido a <strong class="text-dark">Beer Page</strong></p>
+                                    <h1 class="display-1 text-dark mb-4 animated zoomIn">Productos especialmente seleccionados para usted</h1>
+                                    <!--<a href="" class="btn btn-light rounded-pill py-3 px-5 animated zoomIn">Explore More</a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5" id="AcercaDe">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-6 text-end">
+                            <img class="img-fluid bg-white w-100 mb-3 wow fadeIn" data-wow-delay="0.1s" src="img/about-1.jpg" alt="">
+                            <img class="img-fluid bg-white w-50 wow fadeIn" data-wow-delay="0.2s" src="img/about-3.jpg" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid bg-white w-50 mb-3 wow fadeIn" data-wow-delay="0.3s" src="img/about-4.jpg" alt="">
+                            <img class="img-fluid bg-white w-100 wow fadeIn" data-wow-delay="0.4s" src="img/about-2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="section-title">
+                        <p class="fs-5 fw-medium fst-italic text-primary">Acerca de</p>
+                        <h1 class="display-6">La cerveza a travez del tiempo</h1>
+                    </div>
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-4">
+                            <img class="img-fluid bg-white w-100" src="img/about-5.jpg" alt="">
+                        </div>
+                        <div class="col-sm-8">
+                            <h5>Cerveza en tiempos antiguos</h5>
+                            <p class="mb-0">El proceso de elaboración de cerveza en el pasado consistía en germinar, tostar y triturar cereales con almidón, como la cebada, y añadir miel o tubérculos para iniciar la fermentación con levaduras silvestres</p>
+                        </div>
+                    </div>
+                    <div class="border-top mb-4"></div>
+                    <div class="row g-3">
+                        <div class="col-sm-8">
+                            <h5>Cervezas artesanales en la actualidad</h5>
+                            <p class="mb-0">Hoy en día, el proceso de creación de cerveza artesanal consiste en mezclar agua, malta, lúpulo y levadura en un equipo especializado que controla la temperatura, el tiempo y la presión.</p>
+                            <p class="mb-0">-</p>
+                            <p class="mb-0">La cerveza artesanal se caracteriza por su diversidad de estilos, sabores, aromas y colores, que dependen de los ingredientes y las técnicas utilizados por cada productor.</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img class="img-fluid bg-white w-100" src="img/about-6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Article Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="img/article.jpg" alt="">
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="section-title">
+                        <p class="fs-5 fw-medium fst-italic text-primary">Lúpulo</p>
+                        <h1 class="display-6">El uso del lúpulo en la cerveza</h1>
+                    </div>
+                    <p class="mb-4">El lúpulo es una planta que se usa para darle sabor, aroma y conservación a la cerveza, existen diferentes variedades, las cuales pueden aportar más o menos amargor y fragancia, según el estilo de cerveza que se quiera elaborar, también cuentan con propiedades medicinales, como sedante, antioxidantes y estimulantes del apetito.</p>
+                    <p class="mb-4"></p>El primer documento escrito que menciona el uso del lúpulo en la cerveza es una carta del año 822 de un abad francés, que lo recomendaba para mejorar el sabor y la conservación de la bebida</p>
+                    <p class="mb-4">Fue introducido en América por los colonos holandeses y alemanes, que trajeron sus propias variedades y técnicas de cultivo.</p>
+                    <!--<a href="" class="btn btn-primary rounded-pill py-3 px-5">Read More</a>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Article End -->
+
+    <!-- Products Start -->
+    <div class="container-fluid product py-5 my-5" id="Estilos">
+        <div class="container py-5">
+            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium fst-italic text-primary">Estilos de cerveza</p>
+                <h1 class="display-6">Existe una amplia variedad de estilos de cerveza artesanal</h1>
+            </div>
+            <div class="owl-carousel product-carousel wow fadeInUp" data-wow-delay="0.5s">
+                <a href="" class="d-block product-item rounded">
+                    <img src="img/product-1.jpg" alt="">
+                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                        <h4 class="text-primary">Pale Ale</h4>
+                        <span class="text-body">Cerveza de color cobre, con un sabor amargo y un final seco.</span>
+                    </div>
+                </a>
+                <a href="" class="d-block product-item rounded">
+                    <img src="img/product-2.jpg" alt="">
+                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                        <h4 class="text-primary">Brown Ale</h4>
+                        <span class="text-body">Cerveza de color marrón, con notable sabor a malta tostada y nuez.</span>
+                    </div>
+                </a>
+                <a href="" class="d-block product-item rounded">
+                    <img src="img/product-3.jpg" alt="">
+                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                        <h4 class="text-primary">Witbier</h4>
+                        <span class="text-body">Cerveza de trigo, color amarillo pálido, sabor cítrico y refrescante.</span>
+                    </div>
+                </a>
+                <a href="" class="d-block product-item rounded">
+                    <img src="img/product-4.jpg" alt="">
+                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                        <h4 class="text-primary">IPA</h4>
+                        <span class="text-body">Indian Pale Ale, es una cerveza de color ámbar, sabor muy amargo y aromático, debido al uso de grandes cantidades de lúpulo</span>
+                    </div>
+                </a>
+                <a href="" class="d-block product-item rounded">
+                    <img src="img/product-5.jpg" alt="">
+                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                        <h4 class="text-primary">Porter</h4>
+                        <span class="text-body">Es una cerveza oscura, de sabor a malta tostada, café y chocolate, con un cuerpo medio y un amargor moderado</span>
+                    </div>
+                </a>
+                <a href="" class="d-block product-item rounded">
+                    <img src="img/product-6.jpg" alt="">
+                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                        <h4 class="text-primary">Stout</h4>
+                        <span class="text-body">Es una cerveza negra, de sabor intenso a malta tostada, café y chocolate, con un cuerpo alto y un amargor alto</span>
+                    </div>
+                </a>
+                <a href="" class="d-block product-item rounded">
+                    <img src="img/product-7.jpg" alt="">
+                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                        <h4 class="text-primary">Pilsner</h4>
+                        <span class="text-body">Cerveza lager de color dorado, sabor a lúpulo floral y amargor moderado, es el estilo de muchas cervezas comerciales como corona y modelo</span>
+                    </div>
+                </a>
+                <a href="" class="d-block product-item rounded">
+                    <img src="img/product-8.jpg" alt="">
+                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                        <h4 class="text-primary">Vienna</h4>
+                        <span class="text-body">Cerveza lager de color ámbar, sabor a malta caramelizada y amargor equilibrado, estilo de la cerveza Victoria</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Products End -->
+
+    <!-- Store Start -->
+    <div class="container-xxl py-5" id="Tienda">
+        <div class="container">
+            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium fst-italic text-primary">Tienda en linea</p>
+                <h1 class="display-6">La mejor selexión de cervezas artesanales mexicanas solo para ustéd</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="store-item position-relative text-center">
+                        <img class="img-fluid" src="img/store-product-1.jpg" alt="">
+                        <div class="p-4">
+                            <div class="text-center mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <h4 class="mb-3">Colima cayaco</h4>
+                            <p>Cerveza estilo blonde ale con maíz, de color claro y sabor suave y refrescante</p>
+                            <h4 class="text-primary">$44.00</h4>
+                        </div>
+                        <div class="store-overlay">
+                            <a href="https://cerveceriadecolima.com/blogs/noticias/ahora-mas-ligera-cayaco-95" class="btn btn-primary rounded-pill py-2 px-4 m-2">Más detalles <i class="fa fa-arrow-right ms-2"></i></a>
+                            <a href="https://cerveceriadecolima.com/collections/cerveza-cayaco" class="btn btn-dark rounded-pill py-2 px-4 m-2">Comprar <i class="fa fa-cart-plus ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="store-item position-relative text-center">
+                        <img class="img-fluid" src="img/store-product-2.jpg" alt="">
+                        <div class="p-4">
+                            <div class="text-center mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <h4 class="mb-3">Minerva Imperial Tequila</h4>
+                            <p>Estilo ale con agave y tequila, de color cobrizo y sabor dulce y especiado</p>
+                            <h4 class="text-primary">$66.00</h4>
+                        </div>
+                        <div class="store-overlay">
+                            <a href="https://birrapedia.com/minerva-ita-imperial-tequila-ale/f-530239aed187e4fd2900009a" class="btn btn-primary rounded-pill py-2 px-4 m-2">Más detalles <i class="fa fa-arrow-right ms-2"></i></a>
+                            <a href="https://www.heb.com.mx/minerva-cerveza-ita-imperial-tequila-ale-355-ml-371758/p" class="btn btn-dark rounded-pill py-2 px-4 m-2">Comprar <i class="fa fa-cart-plus ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="store-item position-relative text-center">
+                        <img class="img-fluid" src="img/store-product-3.jpg" alt="">
+                        <div class="p-4">
+                            <div class="text-center mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <h4 class="mb-3">La bru Iztaccihuatlt</h4>
+                            <p>Lager de caracter ligero y fresco gracias a su lúpulo europeo y cebada malteada en México</p>
+                            <h4 class="text-primary">$50.00</h4>
+                        </div>
+                        <div class="store-overlay">
+                            <a href="https://cervezalabru.com.mx/iztaccihuatl" class="btn btn-primary rounded-pill py-2 px-4 m-2">Más detalles <i class="fa fa-arrow-right ms-2"></i></a>
+                            <a href="https://cervezalabru.com.mx/iztaccihuatl" class="btn btn-dark rounded-pill py-2 px-4 m-2">Comprar <i class="fa fa-cart-plus ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="store-item position-relative text-center">
+                        <img class="img-fluid" src="img/store-product-4.jpg" alt="">
+                        <div class="p-4">
+                            <div class="text-center mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <h4 class="mb-3">Cucapá Chupacabras</h4>
+                            <p>Pale ale con lúpulo americano, de color naranja y sabor frutal y amargo</p>
+                            <h4 class="text-primary">$35.00</h4>
+                        </div>
+                        <div class="store-overlay">
+                            <a href="https://birrapedia.com/cucapa-chupacabras/f-53021d05d187e4d42e00002c" class="btn btn-primary rounded-pill py-2 px-4 m-2">Más detalles <i
+                                    class="fa fa-arrow-right ms-2"></i></a>
+                            <a href="https://www.amazon.com.mx/Cerveza-artesanal-mexicana-Cucap%C3%A1-chupacabras/dp/B07DLC4R8G" class="btn btn-dark rounded-pill py-2 px-4 m-2">Comprar <i class="fa fa-cart-plus ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="store-item position-relative text-center">
+                        <img class="img-fluid" src="img/store-product-5.jpg" alt="">
+                        <div class="p-4">
+                            <div class="text-center mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <h4 class="mb-3">Jabalí Hellesbock</h4>
+                            <p>Cerveza de color claro, aroma dulce proveniente de la malta. Amargor persistente que le aporta carácter y disimula las
+                            notas florales, cítricas, y ligeramente especiadas </p>
+                            <h4 class="text-primary">$49.00</h4>
+                        </div>
+                        <div class="store-overlay">
+                            <a href="https://birrapedia.com/jabali-hellesbock/f-569fcb41f70fb5f145385e74" class="btn btn-primary rounded-pill py-2 px-4 m-2">Más detalles <i
+                                    class="fa fa-arrow-right ms-2"></i></a>
+                            <a href="https://www.cervezaartesanalmexicana.mx/jabali-hellesbock/" class="btn btn-dark rounded-pill py-2 px-4 m-2">Comprar <i class="fa fa-cart-plus ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="store-item position-relative text-center">
+                        <img class="img-fluid" src="img/store-product-6.jpg" alt="">
+                        <div class="p-4">
+                            <div class="text-center mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <h4 class="mb-3">Principia Extrasolar</h4>
+                            <p>Extrasolar es una cerveza turbia, pálida, con notas cítricas y con bajo amargor, proviniente de Monterrey</p>
+                            <h4 class="text-primary">$80.00</h4>
+                        </div>
+                        <div class="store-overlay">
+                            <a href="https://birrapedia.com/mx/principia-extrasolar/f-608925391603da7f60a7d599" class="btn btn-primary rounded-pill py-2 px-4 m-2">Más detalles <i
+                                    class="fa fa-arrow-right ms-2"></i></a>
+                            <a href="https://chelar.com.mx/producto/principia-extrasolar-estilo-neipa/" class="btn btn-dark rounded-pill py-2 px-4 m-2">Comprar <i class="fa fa-cart-plus ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="store-item position-relative text-center">
+                        <img class="img-fluid" src="img/store-product-7.jpg" alt="">
+                        <div class="p-4">
+                            <div class="text-center mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <h4 class="mb-3">Cru Cru Pale ale</h4>
+                            <p>Cerveza cobriza de cuerpo moderado. Se caracteriza por el uso de lúpulos americanos que entregan notas florales y cítricas, con tintes amargos</p>
+                            <h4 class="text-primary">$60.00</h4>
+                        </div>
+                        <div class="store-overlay">
+                            <a href="https://birrapedia.com/cru-cru-pale-ale/f-5b8009661603da45418b4ceb" class="btn btn-primary rounded-pill py-2 px-4 m-2">Más detalles <i
+                                    class="fa fa-arrow-right ms-2"></i></a>
+                            <a href="https://tiendacrucru.com/products/cru-cru-pale-ale" class="btn btn-dark rounded-pill py-2 px-4 m-2">Comprar <i class="fa fa-cart-plus ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="store-item position-relative text-center">
+                        <img class="img-fluid" src="img/store-product-8.jpg" alt="">
+                        <div class="p-4">
+                            <div class="text-center mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <h4 class="mb-3">Wendlandt Perro del Mar</h4>
+                            <p>Cerveza de color dorado, con amargor notable, y notas a toronja ganó el premio a mejor IPA en 2019 en Cerveza México</p>
+                            <h4 class="text-primary">$68.00</h4>
+                        </div>
+                        <div class="store-overlay">
+                            <a href="https://birrapedia.com/mx/wendlandt-perro-del-mar/f-56ab9491f70fb5f37c5bf3f7" class="btn btn-primary rounded-pill py-2 px-4 m-2">Más detalles <i
+                                    class="fa fa-arrow-right ms-2"></i></a>
+                            <a href="https://www.beerhouse.mx/productos/perro-del-mar/" class="btn btn-dark rounded-pill py-2 px-4 m-2">Comprar <i class="fa fa-cart-plus ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="store-item position-relative text-center">
+                        <img class="img-fluid" src="img/store-product-9.jpg" alt="">
+                        <div class="p-4">
+                            <div class="text-center mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <h4 class="mb-3">Fauna Amanita</h4>
+                            <p>Cerveza clara de color dorado, ligeramente dulce de aroma a cascara de naranja y con notas de lúpulo, naranja y clavo
+                            picante</p>
+                            <h4 class="text-primary">$52.00</h4>
+                        </div>
+                        <div class="store-overlay">
+                            <a href="https://birrapedia.com/mx/fauna-mala-vida/f-591adb531603da7119d0082c" class="btn btn-primary rounded-pill py-2 px-4 m-2">Más detalles <i
+                                    class="fa fa-arrow-right ms-2"></i></a>
+                            <a href="https://topbeer.mx/producto/amanita/" class="btn btn-dark rounded-pill py-2 px-4 m-2">Comprar <i class="fa fa-cart-plus ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <a href="" class="btn btn-primary rounded-pill py-3 px-5">View More Products</a>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <!-- Store End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid testimonial py-5 my-5" id="Comentarios">
+        <div class="container py-5">
+            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium fst-italic text-white">Comentarios</p>
+                <h1 class="display-6">Lo que opinan nuestros usuarios</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.5s">
+                <div class="testimonial-item p-4 p-lg-5">
+                    <p class="mb-4">Como expresidente mexicano, me siento orgulloso de ver el talento y la creatividad de los cerveceros artesanales de
+                    nuestro país. ¡Salud!</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-1.jpg" alt="">
+                        <div class="text-start ms-3">
+                            <h5>Vicente Fox</h5>
+                            <span class="text-primary">Expresidente</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item p-4 p-lg-5">
+                    <p class="mb-4">Me impresiona la calidad y el sabor de las cervezas artesanales mexicanas que se muestran en esta página web, me parece que son el complemento perfecto para relajarse después de una intensa misión.</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-2.jpg" alt="">
+                        <div class="text-start ms-3">
+                            <h5>Master Chief</h5>
+                            <span class="text-primary">Soldado</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item p-4 p-lg-5">
+                    <p class="mb-4">¡Qué onda, pimpollos cerveceros! Soy Luisito Comunica y esta página web es una maravilla, porque me hace sentir como el pasajero en un viaje por el mundo de la cerveza artesanal mexicana.</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-3.jpg" alt="">
+                        <div class="text-start ms-3">
+                            <h5>Luis Arturo Villar</h5>
+                            <span class="text-primary">Youtuber</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-xxl contact py-5" id="Contacto">
+        <div class="container">
+            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium fst-italic text-primary">Contacto</p>
+                <h1 class="display-6">Su opinión es importante</h1>
+            </div>
+            <div class="row justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-8">
+                    <!--p class="text-center mb-5">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>-->
+                    <div class="row g-5">
+                        <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="btn-square mx-auto mb-3">
+                                <i class="fa fa-envelope fa-2x text-white"></i>
+                            </div>
+                            <!--<p class="mb-2">info@example.com</p>-->
+                            <p class="mb-0">marlonmg16@gmail.com</p>
+                        </div>
+                        <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="btn-square mx-auto mb-3">
+                                <i class="fa fa-phone fa-2x text-white"></i>
+                            </div>
+                            <p class="mb-2">+52 354-124-4126</p>
+                            <p class="mb-0">+52 345-632-7890</p>
+                        </div>
+                        <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="btn-square mx-auto mb-3">
+                                <i class="fa fa-map-marker-alt fa-2x text-white"></i>
+                            </div>
+                            <p class="mb-2">CUCEI</p>
+                            <p class="mb-0">Guadalajara, MX</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Start -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-primary mb-4">Nosotros</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>CUCEI, Guadalajara, MX</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+52 354-124-4126</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>marlonmg16@gmail.com</p>
+                    <div class="d-flex pt-3">
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-primary rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-primary mb-4">Horario</h4>
+                    <p class="mb-1">Lunes - Viernes</p>
+                    <h6 class="text-light">09:00 am - 07:00 pm</h6>
+                    <p class="mb-1">Sabado</p>
+                    <h6 class="text-light">09:00 am - 12:00 pm</h6>
+                    <p class="mb-1">Domingo</p>
+                    <h6 class="text-light">Closed</h6>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-primary mb-4">Newsletter</h4>
+                    <p>Subscribase a nuestro newsletter.</p>
+                    <div class="position-relative w-100">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Sú email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Subscribirse</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="fw-medium" href="#">Beer Page</a>, Todos los derechos reservados.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    Plantilla diseñada por <a class="fw-medium" href="https://htmlcodex.com">HTML Codex</a> Distribuido por <a class="fw-medium" href="https://themewagon.com">ThemeWagon</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
